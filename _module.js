@@ -4047,7 +4047,7 @@ function get_each_context$1(ctx, list, i) {
 	return child_ctx;
 }
 
-// (149:12) {#if teaser.link.label}
+// (169:12) {#if teaser.link.label}
 function create_if_block$2(ctx) {
 	let a;
 	let t_value = /*teaser*/ ctx[6].link.label + "";
@@ -4088,7 +4088,7 @@ function create_if_block$2(ctx) {
 	};
 }
 
-// (135:6) {#each teasers as teaser, i}
+// (155:6) {#each teasers as teaser, i}
 function create_each_block$1(ctx) {
 	let div3;
 	let div0;
@@ -4170,7 +4170,7 @@ function create_each_block$1(ctx) {
 		h() {
 			if (!src_url_equal(img.src, img_src_value = /*teaser*/ ctx[6].image.url)) attr(img, "src", img_src_value);
 			attr(img, "alt", img_alt_value = /*teaser*/ ctx[6].image.alt);
-			attr(img, "class", "svelte-1rp3djj");
+			attr(img, "class", "svelte-1tifdhj");
 			attr(circle, "cx", "194");
 			attr(circle, "cy", "194");
 			attr(circle, "r", "194");
@@ -4178,12 +4178,12 @@ function create_each_block$1(ctx) {
 			attr(svg, "viewBox", "0 0 388 388");
 			attr(svg, "fill", "none");
 			attr(svg, "xmlns", "http://www.w3.org/2000/svg");
-			attr(svg, "class", "svelte-1rp3djj");
-			attr(div0, "class", "image svelte-1rp3djj");
-			attr(h3, "class", "title svelte-1rp3djj");
-			attr(div1, "class", "description svelte-1rp3djj");
+			attr(svg, "class", "svelte-1tifdhj");
+			attr(div0, "class", "image svelte-1tifdhj");
+			attr(h3, "class", "title svelte-1tifdhj");
+			attr(div1, "class", "description svelte-1tifdhj");
 			attr(div2, "class", "body");
-			attr(div3, "class", "teaser svelte-1rp3djj");
+			attr(div3, "class", "teaser svelte-1tifdhj");
 		},
 		m(target, anchor) {
 			insert_hydration(target, div3, anchor);
@@ -4297,10 +4297,10 @@ function create_fragment$4(ctx) {
 		},
 		h() {
 			attr(h2, "class", "heading");
-			attr(div0, "class", "header-section svelte-1rp3djj");
-			attr(div1, "class", "teasers svelte-1rp3djj");
-			attr(div2, "class", "section-container svelte-1rp3djj");
-			attr(section, "class", "svelte-1rp3djj");
+			attr(div0, "class", "header-section svelte-1tifdhj");
+			attr(div1, "class", "teasers svelte-1tifdhj");
+			attr(div2, "class", "section-container svelte-1tifdhj");
+			attr(section, "class", "svelte-1tifdhj");
 			attr(div3, "class", "section");
 			attr(div3, "id", "section-727b1ff0");
 		},
@@ -6041,8 +6041,8 @@ function create_fragment$9(ctx) {
 						},
 						"title": "Strawberry Shortcake Macaroons",
 						"description": {
-							"html": "<p>Esse consequat enim proident enim id velit consequat Lorem est ad nisi nostrud. Exercitation fugiat do commodo laborum elit ex consectetur cillum ex.</p>",
-							"markdown": "Esse consequat enim proident enim id velit consequat Lorem est ad nisi nostrud. Exercitation fugiat do commodo laborum elit ex consectetur cillum ex.\n\n"
+							"html": "<p>Esse consequat enim proident enim id velit consequat Lorem est ad nisi nostrud. Exercitation fugiat do commodo laborum elit ex consectetur cillum ex, edited.</p>",
+							"markdown": "Esse consequat enim proident enim id velit consequat Lorem est ad nisi nostrud. Exercitation fugiat do commodo laborum elit ex consectetur cillum ex, edited.\n\n"
 						}
 					},
 					{

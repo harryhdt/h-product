@@ -419,27 +419,27 @@
             }
         }
 
-        section.svelte-1rp3djj.svelte-1rp3djj {
+        section.svelte-1tifdhj.svelte-1tifdhj {
             overflow: hidden
         }
 
-        .section-container.svelte-1rp3djj.svelte-1rp3djj {
+        .section-container.svelte-1tifdhj.svelte-1tifdhj {
             max-width: 1050px
         }
 
-        .header-section.svelte-1rp3djj.svelte-1rp3djj {
+        .header-section.svelte-1tifdhj.svelte-1tifdhj {
             padding-top: 1rem;
             text-align: center;
             margin-bottom: 5rem;
             padding: 0
         }
 
-        .teasers.svelte-1rp3djj.svelte-1rp3djj {
+        .teasers.svelte-1tifdhj.svelte-1tifdhj {
             display: grid;
             gap: 4rem
         }
 
-        .teaser.svelte-1rp3djj.svelte-1rp3djj {
+        .teaser.svelte-1tifdhj.svelte-1tifdhj {
             display: grid;
             row-gap: 2rem;
             -moz-column-gap: 6rem;
@@ -447,17 +447,37 @@
             place-items: center start
         }
 
-        .teaser.svelte-1rp3djj .image.svelte-1rp3djj {
-            position: relative
+        .teaser.svelte-1tifdhj .image.svelte-1tifdhj {
+            position: relative;
+            aspect-ratio: 16/13;
+            overflow: hidden;
+            width: 100%
         }
 
-        .teaser.svelte-1rp3djj .image img.svelte-1rp3djj {
+        @media(max-width: 800px) {
+            .teaser.svelte-1tifdhj .image.svelte-1tifdhj {
+                aspect-ratio: 16/10
+            }
+        }
+
+        .teaser.svelte-1tifdhj .image img.svelte-1tifdhj {
             z-index: 1;
             position: relative;
+            width: 100%;
+            height: 100%;
+            -o-object-fit: cover;
+            object-fit: cover;
             border-radius: var(--border-radius)
         }
 
-        .teaser.svelte-1rp3djj .image svg.svelte-1rp3djj {
+        @media(max-width: 800px) {
+            .teaser.svelte-1tifdhj .image img.svelte-1tifdhj {
+                margin-left: auto;
+                margin-right: auto
+            }
+        }
+
+        .teaser.svelte-1tifdhj .image svg.svelte-1tifdhj {
             width: 75%;
             position: absolute;
             bottom: 0;
@@ -469,13 +489,13 @@
         }
 
         @media(prefers-reduced-motion) {
-            .teaser.svelte-1rp3djj .image svg.svelte-1rp3djj {
+            .teaser.svelte-1tifdhj .image svg.svelte-1tifdhj {
                 -webkit-animation: none;
                 animation: none
             }
         }
 
-        .teaser.svelte-1rp3djj .body .title.svelte-1rp3djj {
+        .teaser.svelte-1tifdhj .body .title.svelte-1tifdhj {
             font-family: var(--font-heading);
             margin-bottom: 0.75rem;
             font-weight: 500;
@@ -484,14 +504,14 @@
             color: var(--color)
         }
 
-        .teaser.svelte-1rp3djj .body .description.svelte-1rp3djj {
+        .teaser.svelte-1tifdhj .body .description.svelte-1tifdhj {
             font-size: 1.25rem;
             line-height: 2rem;
             margin-bottom: 1.5rem
         }
 
         @media(min-width: 800px) {
-            .teaser.svelte-1rp3djj .body .title.svelte-1rp3djj {
+            .teaser.svelte-1tifdhj .body .title.svelte-1tifdhj {
                 font-family: var(--font-heading);
                 margin-bottom: 0.75rem;
                 font-weight: 500;
@@ -500,22 +520,22 @@
                 color: var(--color)
             }
 
-            .teaser.svelte-1rp3djj .body .description.svelte-1rp3djj {
+            .teaser.svelte-1tifdhj .body .description.svelte-1tifdhj {
                 font-size: 1.25rem;
                 line-height: 2rem;
                 margin-bottom: 1.5rem
             }
         }
 
-        .teaser.svelte-1rp3djj.svelte-1rp3djj:nth-child(2) {
+        .teaser.svelte-1tifdhj.svelte-1tifdhj:nth-child(2) {
             position: relative
         }
 
-        .teaser.svelte-1rp3djj:nth-child(2) .image.svelte-1rp3djj {
+        .teaser.svelte-1tifdhj:nth-child(2) .image.svelte-1tifdhj {
             position: static
         }
 
-        .teaser.svelte-1rp3djj:nth-child(2) svg.svelte-1rp3djj {
+        .teaser.svelte-1tifdhj:nth-child(2) svg.svelte-1tifdhj {
             left: initial;
             right: 0;
             bottom: 0;
@@ -523,12 +543,12 @@
             width: 300px
         }
 
-        .teaser.svelte-1rp3djj:nth-child(odd):not(:first-child) svg.svelte-1rp3djj {
+        .teaser.svelte-1tifdhj:nth-child(odd):not(:first-child) svg.svelte-1tifdhj {
             display: none
         }
 
         @media(min-width: 800px) {
-            .teaser.svelte-1rp3djj.svelte-1rp3djj {
+            .teaser.svelte-1tifdhj.svelte-1tifdhj {
                 grid-template-columns: 1fr 1fr
             }
         }
@@ -876,49 +896,49 @@
         </section>
     </div>
     <div class="section" id="section-727b1ff0">
-        <section class="svelte-1rp3djj">
-            <div class="section-container svelte-1rp3djj">
-                <div class="header-section svelte-1rp3djj">
+        <section class="svelte-1tifdhj">
+            <div class="section-container svelte-1tifdhj">
+                <div class="header-section svelte-1tifdhj">
                     <h2 class="heading">What's popular?</h2>
                 </div>
-                <div class="teasers svelte-1rp3djj">
-                    <div class="teaser svelte-1rp3djj">
-                        <div class="image svelte-1rp3djj"><img src="https://images.unsplash.com/photo-1612198791362-c996ceb686b1?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="strawberry macaroons" class="svelte-1rp3djj">
-                            <svg viewBox="0 0 388 388" fill="none" xmlns="http://www.w3.org/2000/svg" class="svelte-1rp3djj">
+                <div class="teasers svelte-1tifdhj">
+                    <div class="teaser svelte-1tifdhj">
+                        <div class="image svelte-1tifdhj"><img src="https://images.unsplash.com/photo-1612198791362-c996ceb686b1?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="strawberry macaroons" class="svelte-1tifdhj">
+                            <svg viewBox="0 0 388 388" fill="none" xmlns="http://www.w3.org/2000/svg" class="svelte-1tifdhj">
                                 <circle cx="194" cy="194" r="194" fill="var(--color-shade)"></circle>
                             </svg>
                         </div>
                         <div class="body">
-                            <h3 class="title svelte-1rp3djj">Strawberry Shortcake Macaroons</h3>
-                            <div class="description svelte-1rp3djj"><!-- HTML_TAG_START -->
-                                <p>Esse consequat enim proident enim id velit consequat Lorem est ad nisi nostrud. Exercitation fugiat do commodo laborum elit ex consectetur cillum ex.</p><!-- HTML_TAG_END -->
+                            <h3 class="title svelte-1tifdhj">Strawberry Shortcake Macaroons</h3>
+                            <div class="description svelte-1tifdhj"><!-- HTML_TAG_START -->
+                                <p>Esse consequat enim proident enim id velit consequat Lorem est ad nisi nostrud. Exercitation fugiat do commodo laborum elit ex consectetur cillum ex, edited.</p><!-- HTML_TAG_END -->
                             </div>
                             <a class="button" href="/contact">Reserve a box</a>
                         </div>
                     </div>
-                    <div class="teaser svelte-1rp3djj">
-                        <div class="image svelte-1rp3djj"><img src="https://images.unsplash.com/photo-1565004602745-718e1b0d44f8?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NHwyMzIyMDE0NXx8ZW58MHx8fHw%3D&amp;auto=format&amp;fit=crop&amp;w=400&amp;q=60" alt="Brownie lava cake" class="svelte-1rp3djj">
-                            <svg viewBox="0 0 388 388" fill="none" xmlns="http://www.w3.org/2000/svg" class="svelte-1rp3djj">
+                    <div class="teaser svelte-1tifdhj">
+                        <div class="image svelte-1tifdhj"><img src="https://images.unsplash.com/photo-1565004602745-718e1b0d44f8?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NHwyMzIyMDE0NXx8ZW58MHx8fHw%3D&amp;auto=format&amp;fit=crop&amp;w=400&amp;q=60" alt="Brownie lava cake" class="svelte-1tifdhj">
+                            <svg viewBox="0 0 388 388" fill="none" xmlns="http://www.w3.org/2000/svg" class="svelte-1tifdhj">
                                 <circle cx="194" cy="194" r="194" fill="var(--color-shade)"></circle>
                             </svg>
                         </div>
                         <div class="body">
-                            <h3 class="title svelte-1rp3djj">Brownie Lava Cake</h3>
-                            <div class="description svelte-1rp3djj"><!-- HTML_TAG_START -->
+                            <h3 class="title svelte-1tifdhj">Brownie Lava Cake</h3>
+                            <div class="description svelte-1tifdhj"><!-- HTML_TAG_START -->
                                 <p>Deserunt ea nisi nisi anim id irure voluptate ut. Anim excepteur dolore reprehenderit cillum quis excepteur esse minim exercitation ad et.</p><!-- HTML_TAG_END -->
                             </div>
                             <a class="button" href="/contact">Reserve a box</a>
                         </div>
                     </div>
-                    <div class="teaser svelte-1rp3djj">
-                        <div class="image svelte-1rp3djj"><img src="https://images.unsplash.com/photo-1533134242443-d4fd215305ad?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=80" alt="blueberry cheesecake" class="svelte-1rp3djj">
-                            <svg viewBox="0 0 388 388" fill="none" xmlns="http://www.w3.org/2000/svg" class="svelte-1rp3djj">
+                    <div class="teaser svelte-1tifdhj">
+                        <div class="image svelte-1tifdhj"><img src="https://images.unsplash.com/photo-1533134242443-d4fd215305ad?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=80" alt="blueberry cheesecake" class="svelte-1tifdhj">
+                            <svg viewBox="0 0 388 388" fill="none" xmlns="http://www.w3.org/2000/svg" class="svelte-1tifdhj">
                                 <circle cx="194" cy="194" r="194" fill="var(--color-shade)"></circle>
                             </svg>
                         </div>
                         <div class="body">
-                            <h3 class="title svelte-1rp3djj">Blueberry Cheesecake</h3>
-                            <div class="description svelte-1rp3djj"><!-- HTML_TAG_START -->
+                            <h3 class="title svelte-1tifdhj">Blueberry Cheesecake</h3>
+                            <div class="description svelte-1tifdhj"><!-- HTML_TAG_START -->
                                 <p>Aliquip esse nostrud elit cupidatat est. Velit dolore minim aliqua quis.</p><!-- HTML_TAG_END -->
                             </div>
                             <a class="button" href="/contact">Reserve a box</a>
