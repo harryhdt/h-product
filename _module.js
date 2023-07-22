@@ -5949,7 +5949,7 @@ function create_fragment$9(ctx) {
 				},
 				contacts: {
 					"phone": "381-393-1203",
-					"address": "New York, New York"
+					"address": "New York, USA"
 				}
 			}
 		});
